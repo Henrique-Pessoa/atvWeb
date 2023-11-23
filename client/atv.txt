@@ -1,0 +1,26 @@
+https://github.com/andre-savedra/ManflixBack
+
+pip install django django-cors-headers djoser djangorestframework Pillow
+
+
+1) Criar uma página com rota para cada tabela:
+  assinaturas, filmes, categorias, usuarios, favoritos
+
+2) Quando acessar cada página faça um get no backend
+  para mostrar os dados vindos: ex: na assinaturas quero que mostre as assinaturas 
+  disponiveis, assim por adiante....
+
+3) Na tela de filmes, mostre apenas a foto do banner e o titulo do filme,
+   porém quando clicar na foto, redirecione para uma tela filmes/id do filme,
+   onde nessa tela vai exibir todos os dados do filme
+
+4) Na tela de usuarios, quando clicar em um usuario em especifico, 
+   voce tem que exibir os favoritos deste usuario e disponibilizar um formulario
+   no final da pagina para cadastrar um novo favorito
+
+https://avatars.githubusercontent.com/u/89030432?v=4
+
+documentacao do nuxt para comecar projeto
+https://nuxt.com/docs/getting-started/installation
+
+npx nuxi@latest init NOME_DO_PROJETo
